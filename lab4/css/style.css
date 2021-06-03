@@ -1,0 +1,144 @@
+body{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-size: cover;
+}
+
+
+
+header{
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+
+.logo{
+    position: relative;
+    float: left;
+    top: 22.5px;
+    left: 70px;
+    width: 100px;
+    font: 'Nautilus Monoline Pro Black', sans-serif; 
+}
+
+
+.logo a{
+    text-decoration:none;
+    color: rgb(255, 255, 255); 
+    font-size: 30px;
+}
+
+.logo a:hover{
+    color: rgb(50,154,101); 
+}
+
+
+
+.side-menu{
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    height: 75px;
+    background-color: rgb(0, 0, 0, 0.6);
+} 
+
+.side-menu li{
+    font:400 15px 'Bell Centennial SubCaption', sans-serif;  
+    line-height: 30px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 17.5px;
+}
+
+.side-menu a{
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+    padding: 0 40px;
+}
+
+.item{
+    color: white;
+    position: relative;
+    float: right;
+    top: 20px;
+    right: 150px;
+}
+
+.item a{
+    padding: 0;
+    color: rgb(50,154,101); 
+}
+
+.item a:hover{
+    text-decoration:underline;
+}
+
+.bg-ic_caledar {
+    position: relative;
+    width: 19px; height: 19px;
+    background: url('../image/css_sprites1.png') -10px -10px;
+    top: 5px;
+    right: 225px;
+}
+
+.bg-ic_journey {
+    position: relative;
+    width: 19px; height: 19px;
+    background: url('../image/css_sprites2.png') -10px -10px;
+    top: 5px;
+    right: 135px;
+}
+
+.bg-ic_forum {
+    position: relative;
+    width: 19px; height: 19px;
+    background: url('../image/css_sprites3.png') -10px -10px;
+    top: 5px;
+    right: 100px;
+}
+
+
+
+.bg-ic_caledar:hover {
+    background: url('../image/css_sprites1_1.png') -10px -10px;
+}
+
+.bg-ic_journey:hover {
+    background: url('../image/css_sprites2_2.png') -10px -10px;
+}
+
+.bg-ic_forum:hover {
+    background: url('../image/css_sprites3_3.png') -10px -10px;
+}
+
+.forma{
+    position: relative;
+    color: rgb(252, 252, 252);
+    width: 615px;
+    height: 600px;
+    background: #ffffff;
+    top: 65px;
+    border-radius: 20px 20px 20px 20px;
+    left: 640px;
+    bottom: 150px;
+}
+
+text {
+    color: black;
+}
+
+.item_table a
+{
+    color: rgb(50,154,101); 
+    text-decoration: none;
+}
+
+.item_table a:hover{
+    text-decoration:underline;
+}

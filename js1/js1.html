@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+
+  <p>Перед скриптом...</p>
+
+  <script>
+    let name = prompt('Ваше имя?', '');
+    let years = prompt('Сколько вам лет?', '');
+    if(years<"18")
+    {
+        alert("You are not allowed to visit this website");  
+    }
+    else if(years>="18" && years<="22")
+    {
+        let question = confirm("Are you sure you want to continue?");
+        if(question == true)
+        {
+            alert("Welcome, " + name);
+        }
+        else 
+        {
+            alert("You are not allowed to visit this website");
+        }
+    }
+    else if(years>"22")
+    {
+        alert("Welcome, " + name);
+    }
+    
+  </script>
+
+  <p>...После скрипта.</p>
+</body>
+</html>

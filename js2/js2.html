@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+
+  <p>Перед скриптом...</p>
+
+  <script>
+    let numb = " ";
+    let not_numb;
+    do
+    {
+        numb = prompt('Введите любое целое число', '');
+        if(Number.isInteger(+numb))
+        {
+            for(let i = 1; i <= numb; i++)
+            {
+                if(i % 5 == 0)
+                {
+                    not_numb = 1;
+                    console.log(i);  
+                }
+            }
+            if(not_numb == null)
+            {
+                console.log("Sorry, no numbers");  
+            }
+        }
+        else 
+        {
+            alert("Введите целое число!");
+        }
+    }
+    while(!Number.isInteger(+numb))
+    
+  </script>
+
+  <p>...После скрипта.</p>
+</body>
+</html>

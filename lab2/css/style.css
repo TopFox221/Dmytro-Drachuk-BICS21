@@ -1,0 +1,135 @@
+body{
+    width: 1280px;
+    height: 100%;
+    margin: 0 15%;
+}
+.menu{
+     line-height:70px !important;
+    background-color:rgb(54, 68, 79);
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+.menu li{
+    display: inline-block;
+  }
+
+.menu-item{
+    color: white;
+    font:400 20px 'Myriad Pro SemiCondensed', sans-serif;  
+    text-decoration:none;
+    margin: 50px;
+}
+
+.menu li:hover{
+    background-color: rgb(34,36,58); 
+    border-left: 1px solid white;
+    border-right: 1px solid white; 
+}
+
+.logo{
+    margin-top: 10px;
+    font:400 50px 'Myriad Pro Regular', sans-serif;  
+}
+
+.logo span{
+    color: rgb(77,200,251);
+}
+
+.sidebar{
+    float: left;
+    border: 1px solid black; 
+}
+
+.side-menu{
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+    width: 300px;
+} 
+
+.side-menu li{
+    font:400 25px 'Myriad Pro Regular', sans-serif;  
+    line-height: 60px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.side-menu a{
+    text-decoration:none;
+    color: black;
+    padding: 0 40px;
+}
+
+.side-menu li a:hover{
+    padding-left: 60px;
+}
+
+.side-menu li:hover{
+    background-color: rgb(219,219,219); 
+}
+
+.img-block{
+    float: right;
+    border: 1px solid black; 
+    width: 900px;
+    height: 450px;
+    display:flex;
+	justify-content: center; 
+    align-items: center; 
+}
+
+.img-block img:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+
+footer{
+    display: inline-block;
+    background-color:rgb(179, 183, 186);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 65px;
+}
+
+.footermenu{
+    font:400 20px 'Myriad Pro Regular', sans-serif;  
+    text-align: left;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.footermenu a{
+    text-decoration:none;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: black;
+    padding: 15px;
+}
+
+.footermenu a:hover{
+    color: rgb(72, 136, 163);
+    text-decoration: underline;
+} 
+
+.copiright{
+    display: inline-block;
+    float: right;
+    margin-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font:400 20px 'Myriad Pro Regular', sans-serif;  
+}
+
+.text-block{
+    float: right;
+    width: 900px;
+    height: 250px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}

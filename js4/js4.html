@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+
+  <p>Перед скриптом...</p>
+    
+  <script>
+    function createNewUser()
+    {
+        let firstName = prompt('Ваше имя', '');
+        let lastName = prompt('Ваша фамилия', '');
+        let newUser = 
+        {
+            fname: firstName,
+            lname: lastName,
+            getLogin()
+            {
+                console.log(this.fname.charAt(0).toLowerCase()+this.lname.toLowerCase());
+            }
+        }
+        newUser.getLogin();
+    }
+    createNewUser();
+  </script>
+
+  <p>...После скрипта.</p>
+</body>
+</html>
